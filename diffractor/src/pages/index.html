@@ -1,0 +1,27 @@
+<div style="margin-top: 30px;" class="grid-container">
+  <div class="grid-x grid-padding-x">
+    <div class="large-12 cell">
+      <h1>Changes grouped by similarity</h1>
+    </div>
+  </div>
+
+  <div class="grid-x grid-padding-x">
+    <div class="large-12 medium-12 cell">
+      <table class="dashboard-table">
+        <colgroup>
+          <col width="220">
+          <col width="280">
+        </colgroup>
+        <thead>
+          <tr>
+            <th><a href="#">Change stats <i class="fa fa-caret-down"></i></a></th>
+            <th><a href="#">Root changes <i class="fa fa-caret-down"></i></a></th>
+          </tr>
+        </thead>
+        <tbody>
+        {{> change-table-rows }}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

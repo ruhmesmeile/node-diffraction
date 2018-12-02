@@ -1,0 +1,21 @@
+{
+  "name": "node-diffraction",
+  "version": "1.0.0",
+  "description": "Diff two folders, try to be smart about it",
+  "author": "Jonas Ulrich <jonas.ulrich@ruhmesmeile.com>",
+  "scripts": {
+    "start": "node diff.js"
+  },
+  "dependencies": {
+    "diff": "^3.5.0",
+    "difflib": "^0.2.4",
+    "glob-fs": "^0.1.7",
+    "js-beautify": "^1.8.8",
+    "js-sha256": "^0.9.0",
+    "rainbow-code": "^2.1.4",
+    "set-clustering": "github:deestan/set-clustering#master"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
+}

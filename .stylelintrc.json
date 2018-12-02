@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    "stylelint-scss",
+    "stylelint-order"
+  ],
+  "extends": "stylelint-config-sass-guidelines",
+  "ignoreFiles": [
+    "public/**",
+    "**/_normalize.scss"
+  ],
+  "rules": {
+    "order/order": [
+      "custom-properties",
+      "dollar-variables",
+      "declarations",
+      "rules"
+    ],
+    "order/properties-alphabetical-order": null,
+    "max-nesting-depth": 3,
+    "color-named": null
+  }
+}
