@@ -80,8 +80,16 @@
 @import 'components/building-blocks/alert-callout-border';
 @import 'components/building-blocks/stats-list';
 
+.logo {
+  max-width: 200px;
+  position: absolute;
+  top: 60px;
+  right: 60px;
+}
+
 .button {
-    border-radius: 0; }
+  border-radius: 0;
+}
 
 .breadcrumbs li {
   font-size: 0.75rem;
@@ -89,4 +97,42 @@
 
 .breadcrumbs li:not(:last-child)::after {
   color: #1779ba;
+  margin: 0 0.35rem;
+}
+
+.single-change .dashboard-table tbody tr:nth-child(even) td {
+  background-color: #e4e4e4;
+}
+
+.dashboard-table tbody tr:nth-child(even) {
+  &:hover {
+    background: #fcf7da;
+  }
+}
+
+td>.breadcrumbs {
+  position: absolute; bottom: -10px; margin-left: 10px;
+}
+
+li>.breadcrumbs {
+  position: relative;
+  top: -11px;
+}
+
+.accordion-content>ul {
+  font-size: 0.75rem;
+  margin-top: 20px;
+  margin-bottom: -13px;
+}
+
+.accordion-content ul.breadcrumbs {
+  margin-bottom: 0;
+
+  li {
+    color: #555;
+  }
+}
+
+.change__diff {
+  margin-bottom: 0;
 }

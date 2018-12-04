@@ -62,8 +62,8 @@ diffs/
 !diffs/.gitkeep
 diffractor/src/pages/patches/*
 !diffractor/src/pages/patches/.gitkeep
-diffractor/src/partials/inference/*
-!diffractor/src/partials/inference/.gitkeep
+diffractor/src/pages/index.html
+tmp/
 
 # random stuff
 .DS_Store
